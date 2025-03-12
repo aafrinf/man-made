@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    top: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+.header{
+    position: absolute;
+    width: 1728px;
+    height: 100px;
+    background-color: #FCE128;
+}
+.header img{
+    position: absolute;
+    top: 34px;
+    left: 459px;
+    width: 809px;
+    height: 54px;
+}
+
+/* navbar css */
+.navbar {
+    position: absolute;
+    width: 1728px;
+    height: 138px;
+    top:120px;
+    left: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 10px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #201E1E;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.nav-links .active {
+    color:  black;
+    font-weight: 600;
+}
+.logo img{
+    position: absolute;
+    width: 122px;
+    height: 85.4px;
+    top: 140px;
+    left: 50px;
+}
+.icons {
+    position: absolute;
+    top: 60px;
+    left: 1190px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    gap: 39px;
+}
+
+.icon {
+    font-size: 18px;
+    cursor: pointer;
+} 
+/* banner css */
+.banner{
+    position: absolute;
+    top: 265.4px;
+    width: 1728px;
+    height: 851.6px;
+}
+/* category css */
+.img1{
+    position: absolute;
+    top: 1217px;
+    left: 642px;
+    width: 444px;
+    height: 61px;
+}
+.img2{
+    position: absolute;
+    top: 1318px;
+    left: 50px;
+    border-radius: 30px;
+    width: 1628px;
+    height: 700px;
+}
+
+/* shop for men css */
+.men img{
+    position: absolute;
+    top: 2138px;
+    left: 50px;
+    width: 1628px;
+    height: 616px;
+
+}
+/* since 2025 css */
+.bg{
+    position: absolute;
+    top: 2874px;
+    width: 1728px;
+    height: 719px;
+}
+.content{
+    position: absolute;
+    top: 2874px;
+    left: 50px;
+    width: 1700px;
+    height: 648px;
+    border-radius: 30px;
+
+}
+/* new arrivals css */
+.new img{
+    position: absolute;
+    top: 3713px;
+    left: 50px;
+    width: 1628px;
+    height: 674px;
+}
+/* tshirt css */
+.tshirt img{
+    position: absolute;
+    top: 4507px;
+    left: 62px;
+    width: 1604px;
+    height: 1000px;
+}
+/* preium quality css */
+.quality img{
+    position: absolute;
+    top: 5627px;
+    left: 62px;
+    width: 1616px;
+    height: 483px;
+}
+/* last css */
+.footer img{
+    position: absolute;
+    top: 6230px;
+    width: 1728px;
+    height: 2746px;
+}
