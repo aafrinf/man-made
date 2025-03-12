@@ -45,10 +45,9 @@
 
 .nav-links a {
     text-decoration: none;
-    color: #201E1E;
+    color: gray;
     font-size: 22px;
     font-weight: 400;
-    font-family: "Montserrat";
     line-height: 100%;
     letter-spacing: 0%;
 }
